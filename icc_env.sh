@@ -1,5 +1,5 @@
-module unload gcc/8.1.0
+module purge
 
-module load intel/2018.3.222
-module load impi/2018.3.222
+module load intel/2018
+module load impi/2018
 module load mkl

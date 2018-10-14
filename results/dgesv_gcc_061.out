@@ -1,0 +1,30 @@
+---- Small test ----
+0.6500s
+69.4600s
+error
+0.6500s
+69.5300s
+error
+0.6400s
+69.5000s
+error
+---- Medium test ----
+5.0900s
+557.9400s
+error
+5.1900s
+557.7600s
+error
+5.0900s
+557.8600s
+error
+---- Large test ----
+38.3300s
+4472.6800s
+error
+38.3200s
+4469.9700s
+error
+38.3400s
+4439.7400s
+error

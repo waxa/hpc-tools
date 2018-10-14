@@ -1,0 +1,8 @@
+mkl/11.3 unloaded 
+gcccore/8.1.0 unloaded 
+binutils/2.30 unloaded 
+gcc/8.1.0 unloaded 
+gcccore/8.1.0 loaded 
+binutils/2.30 loaded 
+gcc/8.1.0 loaded 
+mkl/11.3 loaded 

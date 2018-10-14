@@ -1,0 +1,16 @@
+mkl/11.3 unloaded 
+impi/2018 unloaded 
+intel/2018 unloaded 
+gcccore/8.1.0 loaded 
+binutils/2.30 loaded 
+gcc/8.1.0 loaded 
+mkl/11.3 loaded 
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory
+./dgesv_icc_062: error while loading shared libraries: libiomp5.so: cannot open shared object file: No such file or directory

@@ -1,7 +1,7 @@
-#include <time.h>
-#include <stdio.h>
-#include <stdlib.h>
 #include "mkl_lapacke.h"
+#include <time.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 double *generate_matrix(int size) {
     int i;
