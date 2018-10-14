@@ -111,16 +111,16 @@ int main(int argc, char **argv) {
 
         clock_t tStart = clock();
         info = LAPACKE_dgesv(LAPACK_ROW_MAJOR, n, nrhs, aref, lda, ipiv, bref, ldb);
-        printf("Time taken by MKL: %.2fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
+        printf("%.4fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
 
         tStart = clock();    
         my_dgesv(n, nrhs, a, lda, ipiv2, b, ldb);
-        printf("Time taken by my implementation: %.2fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
+        printf("%.4fs\n", (double)(clock() - tStart) / CLOCKS_PER_SEC);
 
         if (check_result(bref,b,size)==1)
-            printf("Result is ok!\n");
+            printf("ok\n");
         else    
-            printf("Result is wrong!\n");
+            printf("error\n");
         
         free(a);
         free(b);
